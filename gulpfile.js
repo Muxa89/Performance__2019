@@ -10,7 +10,7 @@ gulp.task("compress", function() {
 });
 
 gulp.task('minify-css', () => {
-  return gulp.src('css/*.css')
+  return gulp.src('css/orig/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('css/min'));
+    .pipe(gulp.dest('css'));
 });
