@@ -18,6 +18,10 @@
   "homepage": "https://github.com/Muxa89/Performance__2019#readme",
   "dependencies": {
     "eslint": "^6.5.1",
+    "gulp": "^4.0.2",
     "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "gulp-minify": "^3.1.0"
   }
 }
